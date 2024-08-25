@@ -9,3 +9,4 @@ services:
     volumes:
       - ".:/app:rw"
       - "./data:/data:rw"
+      - "./src/html:/usr/share/nginx/html"
